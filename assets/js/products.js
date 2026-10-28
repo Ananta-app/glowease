@@ -4,6 +4,34 @@
 
 const PRODUCTS = [
   {
+    "id": "b074pvtpbw",
+    "title": "Mighty Patch Hero Cosmetics Original Nighttime Acne",
+    "category": "skincare",
+    "categoryLabel": "Skincare Routines",
+    "price": "$0.33",
+    "rating": 4.6,
+    "reviews": 186907,
+    "badge": "Amazon Viral Find",
+    "isViral": true,
+    "image": "assets/images/b074pvtpbw_1.jpg",
+    "images": [
+      "assets/images/b074pvtpbw_1.jpg",
+      "assets/images/b074pvtpbw_2.jpg",
+      "assets/images/b074pvtpbw_3.jpg",
+      "assets/images/b074pvtpbw_4.jpg",
+      "assets/images/b074pvtpbw_5.jpg",
+      "assets/images/b074pvtpbw_6.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B074PVTPBW?tag=glowease-20",
+    "description": "Curated for radiant skin and self-care. THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin. Perfect for elevating your daily beauty ritual.",
+    "bullets": [
+      "THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin.",
+      "SHRINKS ZITS IN 6 HOURS. With 50% more gunk-absorbing power than other brands, our pure medical-grade hydrocolloid effortlessly pulls the pus out of whiteheads and speeds up healing.",
+      "ALL-NIGHT ADHESION. Strong enough to stay on through a whole night of tossing, turning, and pillow-squishing. Easy to remove in the AM with zero redness or irritation.",
+      "BLENDS SEAMLESSLY INTO SKIN. Ultra-thin sticker with a translucent matte finish that keeps your pimple under wraps day or night. So comfortable, you’ll forget it’s even there."
+    ]
+  },
+  {
     "id": "b0fx7wh9dj",
     "title": "Gs5 Electric Heated Gua Sha Tool",
     "category": "skincare",
