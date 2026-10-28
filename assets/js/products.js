@@ -4,6 +4,34 @@
 
 const PRODUCTS = [
   {
+    "id": "b0ctm6p17s",
+    "title": "Litbear Travel Makeup Mirror With Lights",
+    "category": "skincare",
+    "categoryLabel": "Skincare Routines",
+    "price": "$24.98",
+    "rating": 4.5,
+    "reviews": 3066,
+    "badge": "Amazon Viral Find",
+    "isViral": true,
+    "image": "assets/images/b0ctm6p17s_1.jpg",
+    "images": [
+      "assets/images/b0ctm6p17s_1.jpg",
+      "assets/images/b0ctm6p17s_2.jpg",
+      "assets/images/b0ctm6p17s_3.jpg",
+      "assets/images/b0ctm6p17s_4.jpg",
+      "assets/images/b0ctm6p17s_5.jpg",
+      "assets/images/b0ctm6p17s_6.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B0CTM6P17S?tag=glowease-20",
+    "description": "Curated for radiant skin. Powerful Light Brightness & 3 Color Light- This lighted makeup mirror is surrounded by 56 pcs bright LED lights that can give you great assistance for for your makeup, giving you a perfect viewing while applying makeup in dark or poorly lit areas. With 3 color lights to pick from, warm light, nature light and white light 3 color lights, you can choose any light according to your needs. Bright light without glare, can protect your eyes Perfect for your daily beauty ritual.",
+    "bullets": [
+      "Powerful Light Brightness & 3 Color Light- This lighted makeup mirror is surrounded by 56 pcs bright LED lights that can give you great assistance for for your makeup, giving you a perfect viewing while applying makeup in dark or poorly lit areas. With 3 color lights to pick from, warm light, nature light and white light 3 color lights, you can choose any light according to your needs. Bright light without glare, can protect your eyes",
+      "10X Magnification /1X HD Double-side Mirror- This is a 10X/1X double-sided lighted travel mirror with high-definition, smooth mirror surface. 1X light up mirror is suitable for overall makeup and daily skin care. 10X magnifying mirror can view more details for makeup, such as to apply mascara, lipstick, blackhead/blemish removal, draw eyeliner, ensuring no more embarrassments or small imperfections. NOTICE: When you use a 10X magnifying mirror, please keep the mirror 4 inches or even closer to your face",
+      "Dimmable Lighting and Smart Function- The mirror has highly sensitive touch control. Long press to adjust brightness between 10% to 100% and touch to switch the light color. It features a brightness memory function and a 30-minute auto-off timer which is convenient for your everytime use",
+      "Lightweight & Potable Travel Mirror- The mirror itself is only 1.0 pounds, 5.3 inches in width and features a flexible foldaway handle, a flannel storage bag accessories making it easy to packed in a bag or store in a luggage. Sufficient for makeup application and touch-ups for commute and 2-3 day business trip. The lighted makeup mirror is bright enough for daily use on vanity while it only takes up a small space"
+    ]
+  },
+  {
     "id": "b074pvtpbw",
     "title": "Mighty Patch Hero Cosmetics Original Nighttime Acne",
     "category": "skincare",
