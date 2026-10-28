@@ -23,7 +23,7 @@ const PRODUCTS = [
       "assets/images/b074pvtpbw_6.jpg"
     ],
     "affiliateUrl": "https://www.amazon.com/dp/B074PVTPBW?tag=glowease-20",
-    "description": "Curated for radiant skin and self-care. THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin. Perfect for elevating your daily beauty ritual.",
+    "description": "Curated for radiant skin. THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin. Perfect for your daily beauty ritual.",
     "bullets": [
       "THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin.",
       "SHRINKS ZITS IN 6 HOURS. With 50% more gunk-absorbing power than other brands, our pure medical-grade hydrocolloid effortlessly pulls the pus out of whiteheads and speeds up healing.",
