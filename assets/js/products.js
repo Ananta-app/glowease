@@ -5,12 +5,12 @@
 const PRODUCTS = [
   {
     "id": "b0bjycrs51",
-    "title": "Test Product Title",
-    "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": ".99",
-    "rating": 4.8,
-    "reviews": 500,
+    "title": "Body Restore Shower Steamers Aromatherapy",
+    "category": "wellness",
+    "categoryLabel": "Body & Glow",
+    "price": "$29.99",
+    "rating": 4.6,
+    "reviews": 18500,
     "badge": "Amazon Viral Find",
     "isViral": true,
     "image": "assets/images/b0bjycrs51_1.jpg",
@@ -23,10 +23,12 @@ const PRODUCTS = [
       "assets/images/b0bjycrs51_6.jpg"
     ],
     "affiliateUrl": "https://www.amazon.com/dp/B0BJYCRS51?tag=glowease-20",
-    "description": "Designed for modern homes. Feature 1 Perfect for elevating your daily routine.",
+    "description": "Turn your daily shower into a luxury aromatherapy spa escape with 6 botanical scents infused with natural essential oils.",
     "bullets": [
-      "Feature 1",
-      "Feature 2"
+      "6 botanical scents infused with natural essential oils",
+      "Slow-dissolving tablets that release soothing aromas throughout your shower",
+      "Stress-relief aromatherapy formula designed for daily self-care rituals",
+      "Ideal luxury home spa gift set for women and men"
     ]
   },
   {
