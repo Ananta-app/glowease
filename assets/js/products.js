@@ -4,6 +4,34 @@
 
 const PRODUCTS = [
   {
+    "id": "b0h5wbgw1y",
+    "title": "Beauty Bar 10 Pack Christmas Stocking Stuffers",
+    "category": "skincare",
+    "categoryLabel": "Skincare Routines",
+    "price": "$366.33",
+    "rating": 4.4,
+    "reviews": 9,
+    "badge": "Amazon Viral Find",
+    "isViral": true,
+    "image": "assets/images/b0h5wbgw1y_1.jpg",
+    "images": [
+      "assets/images/b0h5wbgw1y_1.jpg",
+      "assets/images/b0h5wbgw1y_2.jpg",
+      "assets/images/b0h5wbgw1y_3.jpg",
+      "assets/images/b0h5wbgw1y_4.jpg",
+      "assets/images/b0h5wbgw1y_5.jpg",
+      "assets/images/b0h5wbgw1y_6.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B0H5WBGW1Y?tag=glowease-20",
+    "description": "Designed for modern homes. Festive Christmas Mask Set: Bulk facial masks with exclusive holiday packaging printed classic winter decorative patterns, ideal Christmas stocking stuffers to fill gift sacks and create joyful holiday vibes for every receiver Perfect for elevating your daily routine.",
+    "bullets": [
+      "Festive Christmas Mask Set: Bulk facial masks with exclusive holiday packaging printed classic winter decorative patterns, ideal Christmas stocking stuffers to fill gift sacks and create joyful holiday vibes for every receiver",
+      "Multi-Effect Hydrating Care: Infused with hyaluronic acid, vitamin C & natural plant extracts, these sheet masks deeply hydrate, relieve dry skin and smooth rough texture, targeting various skin concerns for balanced complexions",
+      "Safe for All Skin Types: Formulated vegan & cruelty-free with gentle non-irritating ingredients, lightweight essence absorbs quickly. Suitable for dry, oily, sensitive and normal skin for all-day comfortable daily skincare",
+      "Simple At-Home Spa Routine: Clean your face, apply mask snugly for 15–20 minutes, pat leftover essence or rinse clean. Individual compact packs fit travel, bedtime self-care and indoor holiday spa nights"
+    ]
+  },
+  {
     "id": "b0b9hpyzjh",
     "title": "Laneige Lip Sleeping Mask",
     "category": "skincare",
