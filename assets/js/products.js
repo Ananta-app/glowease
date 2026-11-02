@@ -4,6 +4,34 @@
 
 const PRODUCTS = [
   {
+    "id": "b0b9hpyzjh",
+    "title": "Laneige Lip Sleeping Mask",
+    "category": "skincare",
+    "categoryLabel": "Skincare Routines",
+    "price": "$46.00",
+    "rating": 4.7,
+    "reviews": 1864,
+    "badge": "Amazon Viral Find",
+    "isViral": true,
+    "image": "assets/images/b0b9hpyzjh_1.jpg",
+    "images": [
+      "assets/images/b0b9hpyzjh_1.jpg",
+      "assets/images/b0b9hpyzjh_2.jpg",
+      "assets/images/b0b9hpyzjh_3.jpg",
+      "assets/images/b0b9hpyzjh_4.jpg",
+      "assets/images/b0b9hpyzjh_5.jpg",
+      "assets/images/b0b9hpyzjh_6.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B0B9HPYZJH?tag=glowease-20",
+    "description": "Designed for modern homes. Curated with our iconic Lip Sleeping Mask in Berry, Vanilla, Lemon Sorbet, Mango, and Watermelon Pop scents. Perfect for elevating your daily routine.",
+    "bullets": [
+      "Curated with our iconic Lip Sleeping Mask in Berry, Vanilla, Lemon Sorbet, Mango, and Watermelon Pop scents.",
+      "Provides 12-hour hydration* and gently exfoliates[NT41.1] for visibly softer, smoother lips by morning. *Instrumental results, 33 subjects, after 1 use (Based on the uncolored, unscented Lip Sleeping Mask base formula)",
+      "Apply generously to the lips in the evening & leave on overnight. Gently wipe off excess in the morning as needed.",
+      "Skin Type: Normal, Dry, Combination, and Oily"
+    ]
+  },
+  {
     "id": "b01dz7c502",
     "title": "Grace & Stella Award Winning Moisturizing Under",
     "category": "skincare",
