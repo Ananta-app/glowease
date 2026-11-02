@@ -4,6 +4,32 @@
 
 const PRODUCTS = [
   {
+    "id": "b0bjycrs51",
+    "title": "Test Product Title",
+    "category": "skincare",
+    "categoryLabel": "Skincare Routines",
+    "price": ".99",
+    "rating": 4.8,
+    "reviews": 500,
+    "badge": "Amazon Viral Find",
+    "isViral": true,
+    "image": "assets/images/b0bjycrs51_1.jpg",
+    "images": [
+      "assets/images/b0bjycrs51_1.jpg",
+      "assets/images/b0bjycrs51_2.jpg",
+      "assets/images/b0bjycrs51_3.jpg",
+      "assets/images/b0bjycrs51_4.jpg",
+      "assets/images/b0bjycrs51_5.jpg",
+      "assets/images/b0bjycrs51_6.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B0BJYCRS51?tag=glowease-20",
+    "description": "Designed for modern homes. Feature 1 Perfect for elevating your daily routine.",
+    "bullets": [
+      "Feature 1",
+      "Feature 2"
+    ]
+  },
+  {
     "id": "b0ctm6p17s",
     "title": "Litbear Travel Makeup Mirror With Lights",
     "category": "skincare",
