@@ -4,6 +4,34 @@
 
 const PRODUCTS = [
   {
+    "id": "b01dz7c502",
+    "title": "Grace & Stella Award Winning Moisturizing Under",
+    "category": "skincare",
+    "categoryLabel": "Skincare Routines",
+    "price": "$1.00",
+    "rating": 4.4,
+    "reviews": 50611,
+    "badge": "Amazon Viral Find",
+    "isViral": true,
+    "image": "assets/images/b01dz7c502_1.jpg",
+    "images": [
+      "assets/images/b01dz7c502_1.jpg",
+      "assets/images/b01dz7c502_2.jpg",
+      "assets/images/b01dz7c502_3.jpg",
+      "assets/images/b01dz7c502_4.jpg",
+      "assets/images/b01dz7c502_5.jpg",
+      "assets/images/b01dz7c502_6.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B01DZ7C502?tag=glowease-20",
+    "description": "Designed for modern homes. Your Under Eye Skincare Routine for Dark Circles - Eyes are the first thing people notice. Feel confident and look your best, refreshed, awake, youthful, and brightened by adding these pink under eyes patches into your daily self-care routine. Perfect for elevating your daily routine.",
+    "bullets": [
+      "Your Under Eye Skincare Routine for Dark Circles - Eyes are the first thing people notice. Feel confident and look your best, refreshed, awake, youthful, and brightened by adding these pink under eyes patches into your daily self-care routine.",
+      "Soothing Formula for Refreshed-Looking Eyes - Reduce puffiness, bags, and swelling with these cooling under eye hydrating masks while enjoying \"me-time.\" Help reduce the visibility of fine lines, smooth undereye wrinkles, and moisturize dry under eye skin. Achieve hydrated, refreshed-looking under eye skin with these eye masks for dark circles and puffiness, making them a thoughtful choice for pink gifts for women.",
+      "Unique Formula - Unlike other under eye patches for puffy eyes , these are Vegan, Paraben and Sulfate-Free ingredients that are gentle on sensitive skin. Formulated with Hyaluronic Acid to Moisturize Dry Under Eyes. Eye patches for puffy eyes are simple to use and provide eye depuffing instant results to under eye dark circles.",
+      "Cool Eye Depuffers for Women & Men as a Christmas Gift, Stocking Stuffer, Birthday Gift, Bachelorette Goodie Bag, and for Party Favors! 30 Day Feel-Good Policy, if you're not 100% happy, just let us know and we'll make it right!"
+    ]
+  },
+  {
     "id": "b0bjycrs51",
     "title": "Body Restore Shower Steamers Aromatherapy",
     "category": "wellness",
