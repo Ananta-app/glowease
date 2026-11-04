@@ -1,216 +1,493 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 <head>
-  <meta charset=UTF-8>
-  <meta name=viewport content=width=device-width, initial-scale=1.0>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="p:domain_verify" content="945f9633f8e26535faecabe205d81483"/>
   
-  <title>GlowEase | Curated Viral Beauty, Skincare & Wellness Rituals</title>
-  <meta name=description content=Discover viral skincare essentials, trending beauty tools, and hair rituals curated for effortless radiant skin. Shop verified Amazon Prime finds directly.>
-  <meta name=keywords content=Amazon beauty finds, viral skincare, Pinterest beauty routines, beauty tools, hair rituals, glow essentials>
-  <meta name=author content=GlowEase>
+  <title>GlowEase | Curated Beauty Magazine, Skincare &amp; Tested Vanity Guides</title>
+  <meta name="description" content="Explore tested buyer guides, viral aesthetic skincare finds, and counter-worthy vanity tools curated for glowing skin. Honest reviews with direct Amazon links.">
+  <meta name="keywords" content="Amazon beauty finds, viral skincare, Pinterest beauty routines, glass skin barrier repair, vanity organizers, honest beauty reviews">
+  <meta name="author" content="GlowEase Editorial Team">
 
   <!-- Open Graph / Pinterest Rich Pins -->
-  <meta property=og:type content=website>
-  <meta property=og:site_name content=GlowEase>
-  <meta property=og:title content=GlowEase | Curated Viral Beauty, Skincare & Wellness Rituals>
-  <meta property=og:description content=Shop viral skincare favorites, aesthetic vanity tools, and transformative beauty rituals curated for everyday glow.>
-  <meta property=og:image content=assets/images/hero.jpg>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GlowEase">
+  <meta property="og:title" content="GlowEase | Curated Beauty Magazine &amp; Tested Skincare Guides">
+  <meta property="og:description" content="Tested beauty guides and curated skincare finds for effortless radiance. Honest reviews and counter-worthy vanity essentials.">
+  <meta property="og:image" content="https://m.media-amazon.com/images/I/61kY84Z7zHL._AC_SL1500_.jpg">
 
   <!-- Elegant Rose Gold Monogram Favicon -->
-  <link rel=icon href=data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23C27D88'/><text x='50%' y='68%' font-family='serif' font-weight='bold' font-size='60' fill='white' text-anchor='middle'>G</text></svg>>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23C27D88'/><text x='50%' y='68%' font-family='serif' font-weight='bold' font-size='60' fill='white' text-anchor='middle'>G</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Stylesheet -->
-  <link rel=stylesheet href=assets/css/style.css>
-    <meta name="p:domain_verify" content="945f9633f8e26535faecabe205d81483"/>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <header class=navbar>
-    <div class=nav-container>
-      <a href=# class=brand-logo>
-        <span>GlowEase</span><span class=dot>.</span>
-        <span class=brand-tag>Beauty</span>
+  <!-- 1. Header & Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="/" class="brand-logo">
+        <span>GlowEase</span><span class="dot">.</span>
+        <span class="brand-tag">Magazine</span>
       </a>
 
-      <!-- Search Input -->
-      <div class=search-box>
-        <svg class=search-icon width=18 height=18 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2>
-          <circle cx=11 cy=11 r=8></circle>
-          <line x1=21 y1=21 x2=16.65 y2=16.65></line>
-        </svg>
-        <input type=text id=searchInput class=search-input placeholder=Search viral skincare, beauty devices, hair rituals... autocomplete=off>
-      </div>
+      <!-- Nav Links -->
+      <nav class="nav-links">
+        <a href="#featured-guides" class="nav-link">Guides</a>
+        <a href="#curators-picks" class="nav-link" onclick="filterByCategory('skincare')">Skincare</a>
+        <a href="#curators-picks" class="nav-link" onclick="filterByCategory('vanity')">Vanity Tools</a>
+        <a href="#curators-picks" class="nav-link" onclick="filterByCategory('wellness')">Hair &amp; Body</a>
+      </nav>
 
       <!-- Navigation Actions -->
-      <div class=nav-actions>
-        <a href=https://pinterest.com target=_blank rel=noopener class=btn-pinterest-header>
-          <svg width=18 height=18 viewBox=0 0 24 24 fill=currentColor>
-            <path d=M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z/>
+      <div class="nav-actions">
+        <a href="/blog/" class="btn-guides-pill" title="Browse all curated beauty guides">
+          <span>All Guides</span>
+          <span class="pill-badge">2026</span>
+        </a>
+        <a href="https://www.pinterest.com/gloweaseliving/" target="_blank" rel="noopener" class="btn-pinterest-header">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
           </svg>
-          <span>Follow Pinterest</span>
+          <span>Follow on Pinterest</span>
         </a>
       </div>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class=hero>
-    <div class=hero-card>
-      <img src=assets/images/hero.jpg alt=Aesthetic Luxury Beauty Vanity class=hero-bg>
-      <div class=hero-overlay></div>
-      
-      <div class=hero-content>
-        <div class=hero-pill>
-          <span class=hero-pill-tag>EDITORIAL</span>
-          <span>Curated Beauty & Wellness</span>
+  <!-- 2. Hero Section: Editorial Headline -->
+  <section class="hero-editorial">
+    <div class="hero-editorial-card">
+      <div class="hero-editorial-inner">
+        <div class="hero-editorial-badge">
+          <span class="badge-dot"></span>
+          <span>CURATED BEAUTY EDITORIAL • 2026 RITUALS</span>
         </div>
         
-        <h1 class=hero-title>
-          Elevate Your Daily Ritual with <em>Curated Beauty Finds</em>.
+        <h1 class="hero-editorial-title">
+          Effortless Radiance, Aesthetic Vanities, &amp; <em>Honest Reviews.</em>
         </h1>
         
-        <p class=hero-subtitle>
-          We test and curate viral skincare essentials, high-performance beauty tools, and hair rituals so you can glow effortlessly every day.
+        <p class="hero-editorial-desc">
+          We test and curate top-rated barrier creams, viral K-beauty essentials, and counter-worthy vanity tools from Amazon to help you glow better.
         </p>
 
-        <div class=hero-badges>
-          <div class=hero-badge-item>
-            <svg width=15 height=15 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2.2>
-              <path d=M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z></path>
+        <div class="hero-editorial-features">
+          <div class="hero-feature-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
             </svg>
-            <span>Trending on Pinterest</span>
+            <span>Pinterest Viral Curations</span>
           </div>
-          <div class=hero-badge-item>
-            <svg width=15 height=15 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2.2>
-              <rect x=2 y=7 width=20 height=14 rx=2 ry=2></rect>
-              <path d=M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16></path>
+          <div class="hero-feature-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
             </svg>
             <span>Verified Amazon Prime</span>
           </div>
-          <div class=hero-badge-item>
-            <svg width=15 height=15 viewBox=0 0 24 24 fill=none stroke=currentColor stroke-width=2.2>
-              <polyline points=20 6 9 17 4 12></polyline>
+          <div class="hero-feature-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <span>4.8+ Verified Rating</span>
+            <span>Clean Formula &amp; Barrier Tested</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Category Filter Section -->
-  <section class=filter-section>
-    <div class=filter-header>
-      <h2 class=filter-title>Explore by Ritual</h2>
-      <span class=product-count-badge id=productCount>Loading curated finds...</span>
-    </div>
-
-    <div class=category-tabs>
-      <button class=category-tab active data-category=all>
-        All Glow Finds
-      </button>
-      <button class=category-tab data-category=skincare>
-        Skincare Routines
-      </button>
-      <button class=category-tab data-category=tools>
-        Viral Beauty Tools
-      </button>
-      <button class=category-tab data-category=haircare>
-        Hair Care & Styling
-      </button>
-      <button class=category-tab data-category=wellness>
-        Body & Glow
-      </button>
-    </div>
-  </section>
-
-  <!-- Products Section -->
-  <main class=products-section>
-    <div class=products-grid id=productsGrid>
-      <!-- Injected via app.js -->
-    </div>
-  </main>
-
-  <!-- Follow on Pinterest Banner -->
-  <section class=pinterest-banner-section>
-    <div class=pinterest-banner>
-      <div class=banner-left>
-        <h2>Love Aesthetic Beauty & Skincare Inspiration?</h2>
-        <p>
-          We curate daily skincare routines, aesthetic vanity setups, and viral Amazon beauty gems on our Pinterest boards. Pin your favorites to build your ultimate glow ritual.
+  <!-- 3. Featured Guides / Top Articles -->
+  <section class="featured-guides-section" id="featured-guides">
+    <div class="section-header-editorial">
+      <div class="header-left">
+        <span class="section-kicker">GLOWEASE MAGAZINE</span>
+        <h2 class="section-main-title">Featured Guides &amp; Tested Roundups</h2>
+        <p class="section-main-desc">
+          In-depth buying guides and curated rankings designed to help you discover restorative, vanity-ready essentials with zero fluff.
         </p>
       </div>
       <div>
-        <a href=https://pinterest.com target=_blank rel=noopener class=btn-follow-pinterest>
-          <svg width=22 height=22 viewBox=0 0 24 24 fill=currentColor>
-            <path d=M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z/>
-          </svg>
-          <span>Follow @GlowEase</span>
+        <a href="/blog/" class="btn-view-all-guides">
+          <span>Explore All Guides in Magazine</span>
+          <span>&rarr;</span>
         </a>
       </div>
     </div>
+
+    <!-- Editorial Cards Grid (4 Guides with Dedicated Slugs) -->
+    <div class="featured-guides-grid">
+      
+      <!-- Guide 1 (Live Article: Day 1 Barrier Repair) -->
+      <article class="guide-card">
+        <div class="guide-card-img-wrap">
+          <span class="guide-card-badge highlight">Editor's Pick</span>
+          <img src="https://m.media-amazon.com/images/I/61kY84Z7zHL._AC_SL1500_.jpg" alt="The 10 Best Barrier-Repair Creams for Glass Skin in 2026" loading="lazy">
+        </div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">Skincare Routines &bull; 2026 Tested</div>
+          <h3 class="guide-card-title">
+            <a href="/blog/10-best-barrier-repair-creams-glass-skin-2026/">The 10 Best Barrier-Repair Creams for Glass Skin in 2026</a>
+          </h3>
+          <p class="guide-card-excerpt">
+            Ceramide-rich moisture, soothing panthenol balms, and lightweight bouncy textures that heal dry winter irritation and lock in lasting glass skin radiance.
+          </p>
+          <div class="guide-card-action">
+            <a href="/blog/10-best-barrier-repair-creams-glass-skin-2026/" class="guide-card-read">
+              <span>Read Full Guide</span>
+              <span>&rarr;</span>
+            </a>
+            <span class="guide-card-count">10 Products Ranked</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Guide 2 (Hyaluronic Serums) -->
+      <article class="guide-card">
+        <div class="guide-card-img-wrap">
+          <span class="guide-card-badge">Publishing This Week</span>
+          <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80" alt="Top 7 Hyaluronic Acid &amp; Polyglutamic Serums for Plump Winter Skin" loading="lazy">
+        </div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">Hydration Edit &bull; Deep Moisture</div>
+          <h3 class="guide-card-title">
+            <a href="/blog/7-best-hyaluronic-acid-plumping-serums-2026/">Top 7 Hyaluronic Acid &amp; Polyglutamic Serums for Plump Winter Skin</a>
+          </h3>
+          <p class="guide-card-excerpt">
+            Say goodbye to tight, parched winter skin. We test the most absorbent multi-molecular hydration drops that plump fine lines without stickiness.
+          </p>
+          <div class="guide-card-action">
+            <a href="/blog/7-best-hyaluronic-acid-plumping-serums-2026/" class="guide-card-read">
+              <span>Preview Guide</span>
+              <span>&rarr;</span>
+            </a>
+            <span class="guide-card-count">7 Serums Tested</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Guide 3 (Lip Sleeping Masks) -->
+      <article class="guide-card">
+        <div class="guide-card-img-wrap">
+          <span class="guide-card-badge">Coming Soon</span>
+          <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&q=80" alt="The 8 Best Overnight Lip Sleeping Masks &amp; Balms for Chapped Lips" loading="lazy">
+        </div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">Lip Care &bull; Overnight Reset</div>
+          <h3 class="guide-card-title">
+            <a href="/blog/8-best-overnight-lip-sleeping-masks-2026/">The 8 Best Overnight Lip Sleeping Masks &amp; Balms for Chapped Lips</a>
+          </h3>
+          <p class="guide-card-excerpt">
+            From cult Korean berry balms to nourishing peptide glosses: our tested edit of intensive overnight treatments that restore pillow-soft lips.
+          </p>
+          <div class="guide-card-action">
+            <a href="/blog/8-best-overnight-lip-sleeping-masks-2026/" class="guide-card-read">
+              <span>Preview Guide</span>
+              <span>&rarr;</span>
+            </a>
+            <span class="guide-card-count">8 Top Balms</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Guide 4 (Vanity Organizers) -->
+      <article class="guide-card">
+        <div class="guide-card-img-wrap">
+          <span class="guide-card-badge">Coming Soon</span>
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80" alt="10 Aesthetic Acrylic &amp; Travertine Vanity Organizers to Declutter Your Counter" loading="lazy">
+        </div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">Vanity &amp; Tools &bull; Counter Declutter</div>
+          <h3 class="guide-card-title">
+            <a href="/blog/10-aesthetic-vanity-organizers-2026/">10 Aesthetic Vanity Organizers to Declutter Your Counter</a>
+          </h3>
+          <p class="guide-card-excerpt">
+            Transform cluttered bathroom countertops into a calming boutique sanctuary with fluted acrylic trays, 360-degree rotating caddies, and marble tiers.
+          </p>
+          <div class="guide-card-action">
+            <a href="/blog/10-aesthetic-vanity-organizers-2026/" class="guide-card-read">
+              <span>Preview Guide</span>
+              <span>&rarr;</span>
+            </a>
+            <span class="guide-card-count">10 Organizers Ranked</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer class=footer>
-    <div class=footer-container>
-      <div class=footer-top>
-        <div class=footer-brand>
-          <div class=brand-logo style=margin-bottom: 12px;>
-            <span>GlowEase</span><span class=dot>.</span>
-          </div>
-          <p>
-            Your curated guide to high-performance skincare, viral beauty devices, and self-care rituals designed to simplify your glow.
-          </p>
-        </div>
-
-        <div>
-          <h4 style=font-size: 0.95rem; font-weight: 700; margin-bottom: 14px;>Rituals</h4>
-          <ul style=list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--text-muted);>
-            <li><a href=#searchInput>Skincare Routines</a></li>
-            <li><a href=#searchInput>Beauty Tools</a></li>
-            <li><a href=#searchInput>Hair Care</a></li>
-            <li><a href=#searchInput>Body & Glow</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 style=font-size: 0.95rem; font-weight: 700; margin-bottom: 14px;>Community</h4>
-          <ul style=list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--text-muted);>
-            <li><a href=https://pinterest.com target=_blank rel=noopener>Pinterest Boards</a></li>
-            <li><a href=https://tiktok.com target=_blank rel=noopener>TikTok Finds</a></li>
-            <li><a href=https://instagram.com target=_blank rel=noopener>Instagram</a></li>
-          </ul>
-        </div>
+  <!-- 4. "Curator's Top Picks" / Quick Finds Bar -->
+  <section class="filter-section" id="curators-picks">
+    <div class="section-header-editorial">
+      <div class="header-left">
+        <span class="section-kicker">CURATOR'S TOP PICKS</span>
+        <h2 class="section-main-title">Trending Viral Finds of the Week</h2>
+        <p class="section-main-desc">
+          Single standout beauty essentials handpicked by our editors with 4.5+ star verified ratings, aesthetic finishes, and fast Amazon Prime delivery.
+        </p>
       </div>
-
-      <!-- Affiliate Disclosure (Required for Amazon & Pinterest Legal Compliance) -->
-      <div class=footer-disclosure>
-        <strong>Affiliate Transparency Disclosure:</strong> GlowEase is a curated participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. All prices and ratings are accurate at the time of curation.
-      </div>
-
-      <div class=footer-bottom>
-        <span>&copy; 2026 GlowEase. All rights reserved.</span>
-        <span>High-speed delivery on Cloudflare Pages.</span>
+      <div>
+        <span class="product-count-badge" id="productCount">8 Curated Beauty Finds</span>
       </div>
     </div>
-  </footer>
 
-  <!-- Quick View Modal -->
-  <div class=modal-overlay id=quickViewModal>
-    <div class=modal-card>
-      <button class=modal-close onclick=closeModal() title=Close>&times;</button>
-      <div class=modal-image-col id=modalImageCol></div>
-      <div class=modal-content-col id=modalContentCol></div>
+    <!-- Search Box & Filter Tabs -->
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px;">
+      <div class="category-tabs" style="margin-bottom: 0;">
+        <button class="category-tab active" data-category="all">All Rituals</button>
+        <button class="category-tab" data-category="skincare">Skincare</button>
+        <button class="category-tab" data-category="vanity">Vanity Tools</button>
+        <button class="category-tab" data-category="wellness">Hair &amp; Body</button>
+      </div>
+
+      <div class="search-box" style="max-width: 340px;">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search skincare, tools, rituals..." autocomplete="off">
+      </div>
+    </div>
+
+    <!-- Products Grid (Pre-rendered top cards + dynamic JS enhancement) -->
+    <main class="products-section" style="padding: 0;">
+      <div class="products-grid" id="productsGrid">
+        
+        <!-- Pre-rendered Card 1 (Laneige Lip Sleeping Mask) -->
+        <article class="product-card" id="card-b0b9hpyzjh">
+          <div class="product-image-wrap" onclick="openQuickView('b0b9hpyzjh')" title="Click to view details">
+            <span class="product-pill viral">Viral Beauty Pick</span>
+            <button class="btn-pin-overlay" title="Save to Pinterest" onclick="saveToPinterest('b0b9hpyzjh', event)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+              </svg>
+            </button>
+            <img src="assets/images/b0b9hpyzjh_1.jpg" alt="Laneige Lip Sleeping Mask" class="product-img" loading="lazy" />
+          </div>
+          <div class="product-details">
+            <span class="product-category-meta">Skincare Routines</span>
+            <h3 class="product-title" onclick="openQuickView('b0b9hpyzjh')">Laneige Lip Sleeping Mask (Berry)</h3>
+            <p class="product-desc">Cult-favorite overnight lip treatment delivering intense hydration and antioxidants while you sleep.</p>
+            <div class="product-rating">
+              <span class="rating-num">★ 4.7</span>
+              <span class="reviews-count">(32,400+ reviews)</span>
+            </div>
+            <div class="product-footer">
+              <a href="https://www.amazon.com/dp/B0B9HPYZJH?tag=glowease-20" target="_blank" rel="noopener sponsored" class="btn-affiliate-shop">
+                <span>View on Amazon</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <button class="btn-quick-view" title="Quick View &amp; Gallery" onclick="openQuickView('b0b9hpyzjh')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pre-rendered Card 2 (Body Restore Shower Steamers) -->
+        <article class="product-card" id="card-b0bjycrs51">
+          <div class="product-image-wrap" onclick="openQuickView('b0bjycrs51')" title="Click to view details">
+            <span class="product-pill viral">Aromatherapy Spa</span>
+            <button class="btn-pin-overlay" title="Save to Pinterest" onclick="saveToPinterest('b0bjycrs51', event)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+              </svg>
+            </button>
+            <img src="assets/images/b0bjycrs51_1.jpg" alt="Body Restore Shower Steamers Aromatherapy" class="product-img" loading="lazy" />
+          </div>
+          <div class="product-details">
+            <span class="product-category-meta">Hair &amp; Body Rituals</span>
+            <h3 class="product-title" onclick="openQuickView('b0bjycrs51')">Body Restore Shower Steamers Aromatherapy (15 Pack)</h3>
+            <p class="product-desc">Infused with natural eucalyptus essential oils for an invigorating, decongesting spa shower experience.</p>
+            <div class="product-rating">
+              <span class="rating-num">★ 4.6</span>
+              <span class="reviews-count">(18,200+ reviews)</span>
+            </div>
+            <div class="product-footer">
+              <a href="https://www.amazon.com/dp/B0BJYCRS51?tag=glowease-20" target="_blank" rel="noopener sponsored" class="btn-affiliate-shop">
+                <span>View on Amazon</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <button class="btn-quick-view" title="Quick View &amp; Gallery" onclick="openQuickView('b0bjycrs51')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pre-rendered Card 3 (Grace & Stella Eye Masks) -->
+        <article class="product-card" id="card-b01dz7c502">
+          <div class="product-image-wrap" onclick="openQuickView('b01dz7c502')" title="Click to view details">
+            <span class="product-pill viral">Under-Eye Reset</span>
+            <button class="btn-pin-overlay" title="Save to Pinterest" onclick="saveToPinterest('b01dz7c502', event)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+              </svg>
+            </button>
+            <img src="assets/images/b01dz7c502_1.jpg" alt="Grace &amp; Stella Moisturizing Eye Masks" class="product-img" loading="lazy" />
+          </div>
+          <div class="product-details">
+            <span class="product-category-meta">Skincare Routines</span>
+            <h3 class="product-title" onclick="openQuickView('b01dz7c502')">Grace &amp; Stella Hydrating Under-Eye Patches (24 Pairs)</h3>
+            <p class="product-desc">Cooling hydrogel depuffing patches with vegan collagen and hyaluronic acid for energized eyes.</p>
+            <div class="product-rating">
+              <span class="rating-num">★ 4.4</span>
+              <span class="reviews-count">(21,500+ reviews)</span>
+            </div>
+            <div class="product-footer">
+              <a href="https://www.amazon.com/dp/B01DZ7C502?tag=glowease-20" target="_blank" rel="noopener sponsored" class="btn-affiliate-shop">
+                <span>View on Amazon</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <button class="btn-quick-view" title="Quick View &amp; Gallery" onclick="openQuickView('b01dz7c502')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pre-rendered Card 4 (Beauty Bar Mask Set) -->
+        <article class="product-card" id="card-b0h5wbgw1y">
+          <div class="product-image-wrap" onclick="openQuickView('b0h5wbgw1y')" title="Click to view details">
+            <span class="product-pill viral">Holiday Stocking Stuffer</span>
+            <button class="btn-pin-overlay" title="Save to Pinterest" onclick="saveToPinterest('b0h5wbgw1y', event)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+              </svg>
+            </button>
+            <img src="assets/images/b0h5wbgw1y_1.jpg" alt="Beauty Bar 10 Pack Facial Masks" class="product-img" loading="lazy" />
+          </div>
+          <div class="product-details">
+            <span class="product-category-meta">Skincare Routines</span>
+            <h3 class="product-title" onclick="openQuickView('b0h5wbgw1y')">Beauty Bar Hydrating Facial Sheet Mask Set (10 Pack)</h3>
+            <p class="product-desc">Hydrating botanical sheet masks with hyaluronic acid and vitamin C for radiant holiday skin.</p>
+            <div class="product-rating">
+              <span class="rating-num">★ 4.4</span>
+              <span class="reviews-count">(9 reviews)</span>
+            </div>
+            <div class="product-footer">
+              <a href="https://www.amazon.com/dp/B0H5WBGW1Y?tag=glowease-20" target="_blank" rel="noopener sponsored" class="btn-affiliate-shop">
+                <span>View on Amazon</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <button class="btn-quick-view" title="Quick View &amp; Gallery" onclick="openQuickView('b0h5wbgw1y')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </main>
+  </section>
+
+  <!-- 5. Pinterest Community Banner -->
+  <section class="pinterest-banner">
+    <div class="pinterest-banner-content">
+      <div class="pinterest-icon-large">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345-.09.375-.291 1.199-.334 1.357-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+        </svg>
+      </div>
+      <div class="pinterest-banner-text">
+        <h3>Join 50k+ Beauty Lovers on Pinterest</h3>
+        <p>Save our aesthetic vanity aesthetics, daily glass skin routines, and viral skincare reviews directly to your boards.</p>
+      </div>
+      <a href="https://www.pinterest.com/gloweaseliving/" target="_blank" rel="noopener" class="btn-pinterest-cta">
+        <span>Follow @gloweaseliving</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 6. Quick View Modal -->
+  <div class="modal-overlay" id="quickViewModal">
+    <div class="modal-container">
+      <button class="btn-modal-close" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalContent"></div>
     </div>
   </div>
 
   <!-- Toast Notification -->
-  <div class=toast-notice id=toastNotice></div>
+  <div class="toast-notice" id="toastNotice"></div>
+
+  <!-- 7. Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="/" class="brand-logo footer-logo">
+          <span>GlowEase</span><span class="dot">.</span>
+          <span class="brand-tag">Magazine</span>
+        </a>
+        <p class="footer-tagline">Curated beauty, skincare rituals, and aesthetic vanity guides for effortless radiance.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Editorial</h4>
+          <a href="/blog/">All Buying Guides</a>
+          <a href="/blog/10-best-barrier-repair-creams-glass-skin-2026/">Barrier Repair Creams</a>
+          <a href="#featured-guides">Featured Roundups</a>
+        </div>
+        <div class="footer-col">
+          <h4>Curated Rituals</h4>
+          <a href="#curators-picks" onclick="filterByCategory('skincare')">Skincare Routines</a>
+          <a href="#curators-picks" onclick="filterByCategory('vanity')">Vanity &amp; Tools</a>
+          <a href="#curators-picks" onclick="filterByCategory('wellness')">Hair &amp; Body</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="https://www.pinterest.com/gloweaseliving/" target="_blank" rel="noopener">Pinterest</a>
+          <a href="https://www.amazon.com?tag=glowease-20" target="_blank" rel="noopener sponsored">Amazon Storefront</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- FTC Disclosure -->
+    <div class="footer-bottom">
+      <p class="affiliate-disclosure">
+        <strong>Amazon Associate Disclosure:</strong> GlowEase Magazine is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases at no additional cost to you.
+      </p>
+      <p class="copyright">&copy; 2026 GlowEase Magazine. All rights reserved.</p>
+    </div>
+  </footer>
 
   <!-- Scripts -->
-  <script src=assets/js/products.js></script>
-  <script src=assets/js/app.js></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
