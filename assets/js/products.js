@@ -1,230 +1,76 @@
 /**
  * GLOWEASE - Curated Product Catalog Database
+ * Exclusive Podium 3 Edition (Curator's Top Handpicked Finds)
  */
 
 const PRODUCTS = [
   {
-    "id": "b0h5wbgw1y",
-    "title": "Beauty Bar 10 Pack Christmas Stocking Stuffers",
+    "id": "b09ydccjbj",
+    "title": "AESTURA ATOBARRIER365 Cream for Dry, Sensitive Skin, 80 mL/2.70 fl. oz.",
     "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$366.33",
-    "rating": 4.4,
-    "reviews": 9,
-    "badge": "Amazon Viral Find",
+    "categoryLabel": "Barrier Care & Skincare",
+    "price": "$32.00",
+    "rating": 4.6,
+    "reviews": 5674,
+    "badge": "Best Overall • Korean Gold Standard",
     "isViral": true,
-    "image": "assets/images/b0h5wbgw1y_1.jpg",
+    "image": "https://m.media-amazon.com/images/I/61LwBIkkFgL._SL1500_.jpg",
     "images": [
-      "assets/images/b0h5wbgw1y_1.jpg",
-      "assets/images/b0h5wbgw1y_2.jpg",
-      "assets/images/b0h5wbgw1y_3.jpg",
-      "assets/images/b0h5wbgw1y_4.jpg",
-      "assets/images/b0h5wbgw1y_5.jpg",
-      "assets/images/b0h5wbgw1y_6.jpg"
+      "https://m.media-amazon.com/images/I/61LwBIkkFgL._SL1500_.jpg"
     ],
-    "affiliateUrl": "https://www.amazon.com/dp/B0H5WBGW1Y?tag=glowease-20",
-    "description": "Designed for modern homes. Festive Christmas Mask Set: Bulk facial masks with exclusive holiday packaging printed classic winter decorative patterns, ideal Christmas stocking stuffers to fill gift sacks and create joyful holiday vibes for every receiver Perfect for elevating your daily routine.",
+    "affiliateUrl": "https://www.amazon.com/dp/B09YDCCJBJ?tag=glowease-20",
+    "description": "Patented triple ceramide capsule technology that delivers deep 100-hour moisture to sensitive winter barriers without greasiness.",
     "bullets": [
-      "Festive Christmas Mask Set: Bulk facial masks with exclusive holiday packaging printed classic winter decorative patterns, ideal Christmas stocking stuffers to fill gift sacks and create joyful holiday vibes for every receiver",
-      "Multi-Effect Hydrating Care: Infused with hyaluronic acid, vitamin C & natural plant extracts, these sheet masks deeply hydrate, relieve dry skin and smooth rough texture, targeting various skin concerns for balanced complexions",
-      "Safe for All Skin Types: Formulated vegan & cruelty-free with gentle non-irritating ingredients, lightweight essence absorbs quickly. Suitable for dry, oily, sensitive and normal skin for all-day comfortable daily skincare",
-      "Simple At-Home Spa Routine: Clean your face, apply mask snugly for 15–20 minutes, pat leftover essence or rinse clean. Individual compact packs fit travel, bedtime self-care and indoor holiday spa nights"
+      "PATENTED BARRIER-BOOSTING CERAMIDE CAPSULES: High-density ceramides are delivered to skin through unique capsule technology that help replenish moisture barrier in sensitive skin for deep + long-lasting hydration.",
+      "TRIPLE LIPID COMPLEX: A powerful blend of ceramides, fatty acids, and cholesterol helps strengthen the skin barrier, locking in moisture and protecting against external aggressors.",
+      "LONG-LASTING HYDRATION FOR DRY, NORMAL + SENSITIVE SKIN: Formulated with nourishing ingredients like Vitamin E and Squalane to replenish dehydrated, easily compromised skin, providing immediate comfort and long-lasting nourishment.",
+      "DERM-TESTED + SAFE FOR SENSITIVE SKIN: Allergy-tested, non-comedogenic and free of fragrance, colorants + mineral oils. Accepted by the National Eczema Association. Suitable to use after micro-needling treatment & shown to effectively improve skin condition following derm microneedling treatment."
     ]
   },
   {
-    "id": "b0b9hpyzjh",
-    "title": "Laneige Lip Sleeping Mask",
+    "id": "b091pn6npt",
+    "title": "ETUDE SoonJung 2x Barrier Repair Cream for Sensitive Skin, 2.02 fl oz",
     "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$46.00",
+    "categoryLabel": "Barrier Care & Skincare",
+    "price": "$19.99",
+    "rating": 4.6,
+    "reviews": 7951,
+    "badge": "Best for Sensitive Skin",
+    "isViral": true,
+    "image": "https://m.media-amazon.com/images/I/51eRYeTkxwL._SL1254_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/51eRYeTkxwL._SL1254_.jpg"
+    ],
+    "affiliateUrl": "https://www.amazon.com/dp/B091PN6NPT?tag=glowease-20",
+    "description": "Gentle Panthenoside formula (Panthenol + Madecassoside) free of 10 harsh additives to calm visible redness and peeling.",
+    "bullets": [
+      "Sensitive Skin Care Solution with Panthenosid – ETUDE SoonJung Line is backed by 30 years of sensitive-skin research. This Korean face moisturizer contains Panthenoside (Panthenol + Madecassoside) to strengthen the skin barrier, calm visible irritation, and maintain balanced hydration for smooth, glass-like skin.",
+      "Clean & Gentle Formula – Free of 10 Harsh Additives – Formulated without animal-derived ingredients, mineral oil, silicone oil, synthetic fragrance, PEG, parabens, and other irritants. A gentle daily moisturizer suitable for sensitive and acne-prone skin.",
+      "Creamy, Fast-Absorbing Texture – A rich yet lightweight cream that glides on easily and absorbs quickly without stickiness. Ideal as a day cream or night cream, delivering long-lasting moisture and a dewy, healthy glow.",
+      "Proven Skin Compatibility – Hypoallergenic, dermatologically tested, and completed sensitive-skin irritation tests. Safe for daily use on delicate skin and helps restore the skin’s natural balance for a calm, hydrated complexion."
+    ]
+  },
+  {
+    "id": "b0dsq3mhln",
+    "title": "La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin",
+    "category": "skincare",
+    "categoryLabel": "Barrier Care & Skincare",
+    "price": "$2",
     "rating": 4.7,
-    "reviews": 1864,
-    "badge": "Amazon Viral Find",
+    "reviews": 23658,
+    "badge": "Best SOS Recovery Balm",
     "isViral": true,
-    "image": "assets/images/b0b9hpyzjh_1.jpg",
+    "image": "https://m.media-amazon.com/images/I/71VsH-gdqeL._SL1500_.jpg",
     "images": [
-      "assets/images/b0b9hpyzjh_1.jpg",
-      "assets/images/b0b9hpyzjh_2.jpg",
-      "assets/images/b0b9hpyzjh_3.jpg",
-      "assets/images/b0b9hpyzjh_4.jpg",
-      "assets/images/b0b9hpyzjh_5.jpg",
-      "assets/images/b0b9hpyzjh_6.jpg"
+      "https://m.media-amazon.com/images/I/71VsH-gdqeL._SL1500_.jpg"
     ],
-    "affiliateUrl": "https://www.amazon.com/dp/B0B9HPYZJH?tag=glowease-20",
-    "description": "Designed for modern homes. Curated with our iconic Lip Sleeping Mask in Berry, Vanilla, Lemon Sorbet, Mango, and Watermelon Pop scents. Perfect for elevating your daily routine.",
+    "affiliateUrl": "https://www.amazon.com/dp/B0DSQ3MHLN?tag=glowease-20",
+    "description": "Iconic French pharmacy multi-purpose recovery balm packed with Vitamin B5, shea butter, and prebiotic Tribioma for parched skin.",
     "bullets": [
-      "Curated with our iconic Lip Sleeping Mask in Berry, Vanilla, Lemon Sorbet, Mango, and Watermelon Pop scents.",
-      "Provides 12-hour hydration* and gently exfoliates[NT41.1] for visibly softer, smoother lips by morning. *Instrumental results, 33 subjects, after 1 use (Based on the uncolored, unscented Lip Sleeping Mask base formula)",
-      "Apply generously to the lips in the evening & leave on overnight. Gently wipe off excess in the morning as needed.",
-      "Skin Type: Normal, Dry, Combination, and Oily"
-    ]
-  },
-  {
-    "id": "b01dz7c502",
-    "title": "Grace & Stella Award Winning Moisturizing Under",
-    "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$1.00",
-    "rating": 4.4,
-    "reviews": 50611,
-    "badge": "Amazon Viral Find",
-    "isViral": true,
-    "image": "assets/images/b01dz7c502_1.jpg",
-    "images": [
-      "assets/images/b01dz7c502_1.jpg",
-      "assets/images/b01dz7c502_2.jpg",
-      "assets/images/b01dz7c502_3.jpg",
-      "assets/images/b01dz7c502_4.jpg",
-      "assets/images/b01dz7c502_5.jpg",
-      "assets/images/b01dz7c502_6.jpg"
-    ],
-    "affiliateUrl": "https://www.amazon.com/dp/B01DZ7C502?tag=glowease-20",
-    "description": "Designed for modern homes. Your Under Eye Skincare Routine for Dark Circles - Eyes are the first thing people notice. Feel confident and look your best, refreshed, awake, youthful, and brightened by adding these pink under eyes patches into your daily self-care routine. Perfect for elevating your daily routine.",
-    "bullets": [
-      "Your Under Eye Skincare Routine for Dark Circles - Eyes are the first thing people notice. Feel confident and look your best, refreshed, awake, youthful, and brightened by adding these pink under eyes patches into your daily self-care routine.",
-      "Soothing Formula for Refreshed-Looking Eyes - Reduce puffiness, bags, and swelling with these cooling under eye hydrating masks while enjoying \"me-time.\" Help reduce the visibility of fine lines, smooth undereye wrinkles, and moisturize dry under eye skin. Achieve hydrated, refreshed-looking under eye skin with these eye masks for dark circles and puffiness, making them a thoughtful choice for pink gifts for women.",
-      "Unique Formula - Unlike other under eye patches for puffy eyes , these are Vegan, Paraben and Sulfate-Free ingredients that are gentle on sensitive skin. Formulated with Hyaluronic Acid to Moisturize Dry Under Eyes. Eye patches for puffy eyes are simple to use and provide eye depuffing instant results to under eye dark circles.",
-      "Cool Eye Depuffers for Women & Men as a Christmas Gift, Stocking Stuffer, Birthday Gift, Bachelorette Goodie Bag, and for Party Favors! 30 Day Feel-Good Policy, if you're not 100% happy, just let us know and we'll make it right!"
-    ]
-  },
-  {
-    "id": "b0bjycrs51",
-    "title": "Body Restore Shower Steamers Aromatherapy",
-    "category": "wellness",
-    "categoryLabel": "Body & Glow",
-    "price": "$29.99",
-    "rating": 4.6,
-    "reviews": 18500,
-    "badge": "Amazon Viral Find",
-    "isViral": true,
-    "image": "assets/images/b0bjycrs51_1.jpg",
-    "images": [
-      "assets/images/b0bjycrs51_1.jpg",
-      "assets/images/b0bjycrs51_2.jpg",
-      "assets/images/b0bjycrs51_3.jpg",
-      "assets/images/b0bjycrs51_4.jpg",
-      "assets/images/b0bjycrs51_5.jpg",
-      "assets/images/b0bjycrs51_6.jpg"
-    ],
-    "affiliateUrl": "https://www.amazon.com/dp/B0BJYCRS51?tag=glowease-20",
-    "description": "Turn your daily shower into a luxury aromatherapy spa escape with 6 botanical scents infused with natural essential oils.",
-    "bullets": [
-      "6 botanical scents infused with natural essential oils",
-      "Slow-dissolving tablets that release soothing aromas throughout your shower",
-      "Stress-relief aromatherapy formula designed for daily self-care rituals",
-      "Ideal luxury home spa gift set for women and men"
-    ]
-  },
-  {
-    "id": "b0ctm6p17s",
-    "title": "Litbear Travel Makeup Mirror With Lights",
-    "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$24.98",
-    "rating": 4.5,
-    "reviews": 3066,
-    "badge": "Amazon Viral Find",
-    "isViral": true,
-    "image": "assets/images/b0ctm6p17s_1.jpg",
-    "images": [
-      "assets/images/b0ctm6p17s_1.jpg",
-      "assets/images/b0ctm6p17s_2.jpg",
-      "assets/images/b0ctm6p17s_3.jpg",
-      "assets/images/b0ctm6p17s_4.jpg",
-      "assets/images/b0ctm6p17s_5.jpg",
-      "assets/images/b0ctm6p17s_6.jpg"
-    ],
-    "affiliateUrl": "https://www.amazon.com/dp/B0CTM6P17S?tag=glowease-20",
-    "description": "Curated for radiant skin. Powerful Light Brightness & 3 Color Light- This lighted makeup mirror is surrounded by 56 pcs bright LED lights that can give you great assistance for for your makeup, giving you a perfect viewing while applying makeup in dark or poorly lit areas. With 3 color lights to pick from, warm light, nature light and white light 3 color lights, you can choose any light according to your needs. Bright light without glare, can protect your eyes Perfect for your daily beauty ritual.",
-    "bullets": [
-      "Powerful Light Brightness & 3 Color Light- This lighted makeup mirror is surrounded by 56 pcs bright LED lights that can give you great assistance for for your makeup, giving you a perfect viewing while applying makeup in dark or poorly lit areas. With 3 color lights to pick from, warm light, nature light and white light 3 color lights, you can choose any light according to your needs. Bright light without glare, can protect your eyes",
-      "10X Magnification /1X HD Double-side Mirror- This is a 10X/1X double-sided lighted travel mirror with high-definition, smooth mirror surface. 1X light up mirror is suitable for overall makeup and daily skin care. 10X magnifying mirror can view more details for makeup, such as to apply mascara, lipstick, blackhead/blemish removal, draw eyeliner, ensuring no more embarrassments or small imperfections. NOTICE: When you use a 10X magnifying mirror, please keep the mirror 4 inches or even closer to your face",
-      "Dimmable Lighting and Smart Function- The mirror has highly sensitive touch control. Long press to adjust brightness between 10% to 100% and touch to switch the light color. It features a brightness memory function and a 30-minute auto-off timer which is convenient for your everytime use",
-      "Lightweight & Potable Travel Mirror- The mirror itself is only 1.0 pounds, 5.3 inches in width and features a flexible foldaway handle, a flannel storage bag accessories making it easy to packed in a bag or store in a luggage. Sufficient for makeup application and touch-ups for commute and 2-3 day business trip. The lighted makeup mirror is bright enough for daily use on vanity while it only takes up a small space"
-    ]
-  },
-  {
-    "id": "b074pvtpbw",
-    "title": "Mighty Patch Hero Cosmetics Original Nighttime Acne",
-    "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$0.33",
-    "rating": 4.6,
-    "reviews": 186907,
-    "badge": "Amazon Viral Find",
-    "isViral": true,
-    "image": "assets/images/b074pvtpbw_1.jpg",
-    "images": [
-      "assets/images/b074pvtpbw_1.jpg",
-      "assets/images/b074pvtpbw_2.jpg",
-      "assets/images/b074pvtpbw_3.jpg",
-      "assets/images/b074pvtpbw_4.jpg",
-      "assets/images/b074pvtpbw_5.jpg",
-      "assets/images/b074pvtpbw_6.jpg"
-    ],
-    "affiliateUrl": "https://www.amazon.com/dp/B074PVTPBW?tag=glowease-20",
-    "description": "Curated for radiant skin. THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin. Perfect for your daily beauty ritual.",
-    "bullets": [
-      "THE ORIGINAL AWARD-WINNING ACNE PATCH. Mighty Patch is a hydrocolloid sticker that visibly flattens pimples overnight. No popping necessary. Just stick it on, get some beauty sleep, and wake up with clearer skin.",
-      "SHRINKS ZITS IN 6 HOURS. With 50% more gunk-absorbing power than other brands, our pure medical-grade hydrocolloid effortlessly pulls the pus out of whiteheads and speeds up healing.",
-      "ALL-NIGHT ADHESION. Strong enough to stay on through a whole night of tossing, turning, and pillow-squishing. Easy to remove in the AM with zero redness or irritation.",
-      "BLENDS SEAMLESSLY INTO SKIN. Ultra-thin sticker with a translucent matte finish that keeps your pimple under wraps day or night. So comfortable, you’ll forget it’s even there."
-    ]
-  },
-  {
-    "id": "b0fx7wh9dj",
-    "title": "Gs5 Electric Heated Gua Sha Tool",
-    "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$49.99",
-    "rating": 4.2,
-    "reviews": 623,
-    "badge": "Amazon Viral Find",
-    "isViral": true,
-    "image": "assets/images/b0fx7wh9dj_1.jpg",
-    "images": [
-      "assets/images/b0fx7wh9dj_1.jpg",
-      "assets/images/b0fx7wh9dj_2.jpg",
-      "assets/images/b0fx7wh9dj_3.jpg",
-      "assets/images/b0fx7wh9dj_4.jpg",
-      "assets/images/b0fx7wh9dj_5.jpg",
-      "assets/images/b0fx7wh9dj_6.jpg"
-    ],
-    "affiliateUrl": "https://www.amazon.com/dp/B0FX7WH9DJ?tag=glowease-20",
-    "description": "Curated for radiant skin and self-care. Advanced Red Light System: Built with 8 evenly spaced red light beads(620-640nm) to deliver consistent and gentle illumination. The soft red light glow helps awaken dull-looking skin and supports a smoother, naturally radiant appearance over time. Suitable for facial care, jawline contouring, lymphatic drainage, and neck relaxation Perfect for elevating your daily beauty ritual.",
-    "bullets": [
-      "Advanced Red Light System: Built with 8 evenly spaced red light beads(620-640nm) to deliver consistent and gentle illumination. The soft red light glow helps awaken dull-looking skin and supports a smoother, naturally radiant appearance over time. Suitable for facial care, jawline contouring, lymphatic drainage, and neck relaxation",
-      "Smart Heat & Gentle Vibration Massage: Three adjustable heat levels (91.4°F–118.4°F / 33–48°C) combined with 3 levels of gentle vibration provide a customizable facial massage. Unlike strong body massagers, the vibration is designed to be soft and soothing for delicate facial skin, helping relax facial tension while supporting a smoother-looking complexion. For first-time use, it is recommended to start from the lowest heat and vibration settings and adjust gradually based on personal comfort. For best results, use slow upward lifting motions along the face and neck. Not recommended for sensitive or easily irritated skin",
-      "Relaxing Home SPA Experience: Use with your favorite serums, facial oils, or creams. Gentle heat and vibration help improve product absorption, allowing skincare ingredients to work more effectively. Regular use helps your skin feel firmer, softer, and visibly more radiant after each session",
-      "Ergonomic Contoured Design: Thoughtfully shaped with curved edges that fit the natural contours of your face, neck, and shoulders for smoother gliding and better contact. The ergonomic handle ensures a comfortable, balanced grip, making it easy to enjoy a relaxing massage anytime"
-    ]
-  },
-  {
-    "id": "b00pbx3l7k",
-    "title": "Cosrx Snail Mucin 96% Repairing Serum For",
-    "category": "skincare",
-    "categoryLabel": "Skincare Routines",
-    "price": "$29.99",
-    "rating": 4.6,
-    "reviews": 108491,
-    "badge": "Amazon Viral Find",
-    "isViral": true,
-    "image": "assets/images/b00pbx3l7k_1.jpg",
-    "images": [
-      "assets/images/b00pbx3l7k_1.jpg",
-      "assets/images/b00pbx3l7k_2.jpg",
-      "assets/images/b00pbx3l7k_3.jpg",
-      "assets/images/b00pbx3l7k_4.jpg",
-      "assets/images/b00pbx3l7k_5.jpg",
-      "assets/images/b00pbx3l7k_6.jpg"
-    ],
-    "affiliateUrl": "https://www.amazon.com/dp/B00PBX3L7K?tag=glowease-20",
-    "description": "Curated for radiant skin and self-care. The Real Snail Essence: Formulated with 96.3% Snail Secretion Filtrate, this essence repairs and rejuvenates the skin from dryness and aging. It improves skin vitality by reducing dullness and soothing dehydrated skin. Perfect for elevating your daily beauty ritual.",
-    "bullets": [
-      "The Real Snail Essence: Formulated with 96.3% Snail Secretion Filtrate, this essence repairs and rejuvenates the skin from dryness and aging. It improves skin vitality by reducing dullness and soothing dehydrated skin.",
-      "Simple Yet Effective Light-weight Essence: A lightweight essence which fastly absorbs into the skin and gives you a natural and healthy glow. Guarantees long-lasting hydration without heavy feeling on the skin.",
-      "Key Ingredient: Snail Secretion Filtrate contains \"Mucin\"- an EFFECTIVE ingredient for enhanced moisturization. It instantly soothes damaged skin and delivers moisture deep into your skin. Perfect for dehydrated and damaged skin.",
-      "NO Snails are Harmed: Snail Mucin is obtained in a safe and environmentally friendly way in a favorite environment of snails and then processed as a cosmetic material. 100% Natural, Hypoallergenic, Dermatologist-tested."
+      "Hydrating Relief for 11 Different Dry Skin Irritations: This multi-purpose soothing & calming cream for cracked, chapped, chafed skin & dry, rough skin irritations helps to hydrate and soothe. Non-greasy, skin protectant for face, body, lips & hands.",
+      "Relief for the Whole Family: Suitable for adults, children & babies 1 week and up, including baby's scalp. A hydrating cream that protects chafed skin due to diaper rash & helps seal out wetness, while helping to treat & prevent diaper rash.",
+      "Soothing Cream for Skin Barrier Repair: Panthenol (provitamin B5) soothes & moisturizes skin. Shea Butter: Sustainably sourced helps restore skin's hydrolipidic film. Tribioma: A propietary prebiotic complex that helps restore skin moisture barrier.",
+      "Protects Against Environmental Aggressors: This balm creates a protective barrier against harsh environmental factors like wind and cold, helping to prevent further dryness and irritation."
     ]
   }
 ];
