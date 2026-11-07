@@ -680,23 +680,77 @@ a.product-title-link:hover, a.qp-title-link:hover {
   text-underline-offset: 3px;
 }
 
-/* Clickable Product Visuals */
-a.product-img-link, .qp-img-wrap a {
-  display: block;
+/* ==========================================================================
+   Clickable Product Visuals Fix (Prevents Image Overflow in Cards)
+   ========================================================================== */
+
+.product-visual .img-container {
+  overflow: hidden;
+}
+
+.qp-img-wrap {
+  overflow: hidden;
+}
+
+a.product-img-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
 }
 
-a.product-img-link img, .qp-img-wrap a img {
+.qp-img-wrap a {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.product-img-link img,
+.product-visual .img-container img,
+.product-cdn-img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto;
   transition: transform 0.3s ease, opacity 0.25s ease;
 }
 
-a.product-img-link:hover img, .qp-img-wrap a:hover img {
+.qp-img-wrap a img,
+.qp-img-wrap img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto;
+  transition: transform 0.3s ease, opacity 0.25s ease;
+}
+
+a.product-img-link:hover img,
+.qp-img-wrap a:hover img {
   transform: scale(1.03);
   opacity: 0.95;
 }
+
 
 /* Curator's Accessory Pairing Tip */
 .product-pairing-tip {
