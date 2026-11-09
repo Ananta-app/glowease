@@ -18,7 +18,7 @@ const PRODUCTS = [
     "images": [
       "https://m.media-amazon.com/images/I/61LwBIkkFgL._SL1500_.jpg"
     ],
-    "affiliateUrl": "https://www.amazon.com/dp/B09YDCCJBJ?tag=glowease-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09YDCCJBJ?tag=gloweasemag-20",
     "description": "Patented triple ceramide capsule technology that delivers deep 100-hour moisture to sensitive winter barriers without greasiness.",
     "bullets": [
       "PATENTED BARRIER-BOOSTING CERAMIDE CAPSULES: High-density ceramides are delivered to skin through unique capsule technology that help replenish moisture barrier in sensitive skin for deep + long-lasting hydration.",
@@ -41,7 +41,7 @@ const PRODUCTS = [
     "images": [
       "https://m.media-amazon.com/images/I/51eRYeTkxwL._SL1254_.jpg"
     ],
-    "affiliateUrl": "https://www.amazon.com/dp/B091PN6NPT?tag=glowease-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B091PN6NPT?tag=gloweasemag-20",
     "description": "Gentle Panthenoside formula (Panthenol + Madecassoside) free of 10 harsh additives to calm visible redness and peeling.",
     "bullets": [
       "Sensitive Skin Care Solution with Panthenoside: Contains Panthenol + Madecassoside to strengthen the skin barrier, calm visible irritation, and maintain balanced hydration for smooth, glass-like skin.",
@@ -64,7 +64,7 @@ const PRODUCTS = [
     "images": [
       "https://m.media-amazon.com/images/I/71VsH-gdqeL._SL1500_.jpg"
     ],
-    "affiliateUrl": "https://www.amazon.com/dp/B0DSQ3MHLN?tag=glowease-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0DSQ3MHLN?tag=gloweasemag-20",
     "description": "Iconic French pharmacy multi-purpose recovery balm packed with Vitamin B5, shea butter, and prebiotic Tribioma for parched skin.",
     "bullets": [
       "Hydrating Relief for Dry Skin Irritations: This multi-purpose soothing & calming cream for cracked, chapped, chafed skin helps to hydrate and soothe. Non-greasy protectant for face and body.",
